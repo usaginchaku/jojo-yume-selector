@@ -27,14 +27,14 @@
     .header-meta{display:flex;align-items:center;gap:24px;font-size:12px;font-weight:800;color:var(--muted)}
     .header-meta a{text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:2px}
     .hero{padding-top:0}
-    .hero-shell{min-height:316px;position:relative;overflow:hidden;isolation:isolate;border-radius:26px;background:radial-gradient(circle at 75% 80%,#453057 0,transparent 32%),linear-gradient(120deg,#221b34 15%,#382641 85%);color:#fff;display:flex;align-items:center;padding:49px 66px}
+    .hero-shell{min-height:240px;position:relative;overflow:hidden;isolation:isolate;border-radius:26px;background:radial-gradient(circle at 75% 80%,#453057 0,transparent 32%),linear-gradient(120deg,#221b34 15%,#382641 85%);color:#fff;display:flex;align-items:center;padding:36px 56px}
     .hero-shell:after{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px);background-size:35px 35px;mask-image:linear-gradient(90deg,transparent 35%,black);z-index:-1}
     .hero-copy{position:relative;z-index:2;width:65%}
     .eyebrow{font-size:11px;font-weight:900;letter-spacing:.24em;line-height:1.5;color:#efc1d6;margin:0 0 16px}
-    .hero h1{font-size:clamp(34px,5.3vw,66px);letter-spacing:-.07em;line-height:1.2;margin:0 0 14px;font-weight:900}
+    .hero h1{font-size:clamp(34px,4.9vw,58px);letter-spacing:-.07em;line-height:1.2;margin:0;font-weight:900}
     .hero h1 em{color:#f4b0d0;font-style:normal}
     .hero-desc{color:#e7deeb;font-size:14px;max-width:590px;margin:0;line-height:1.9}
-    .hero-actionline{display:flex;align-items:center;gap:20px;margin-top:25px}
+    .hero-actionline{display:flex;align-items:center;gap:20px;margin-top:18px}
     .hero-tag{font-size:11px;font-weight:900;letter-spacing:.14em;color:#c5b7d1}
     .hero-art{pointer-events:none;position:absolute;right:-27px;top:-98px;width:480px;height:490px;opacity:.95}
     .orbit{position:absolute;border:1px solid rgba(241,214,143,.56);border-radius:50%;transform:rotate(-20deg)}
@@ -46,11 +46,12 @@
     .orbit-core small{display:block;color:#f3d88f;letter-spacing:.24em;font-size:11px;font-weight:900}
     .hero-spark{position:absolute;top:103px;right:92px;font-size:54px;color:#edbfd1}
     .hero-spark.two{top:361px;right:396px;font-size:28px;color:var(--gold)}
-    .section{margin-top:58px}
-    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:24px}
+    .section{margin-top:40px}
+    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:16px}
     .step-label{font-size:11px;letter-spacing:.22em;color:var(--violet);font-weight:900}
     h2{font-size:clamp(25px,2.7vw,34px);line-height:1.34;letter-spacing:-.05em;margin:6px 0 7px}
     .section-heading p{font-size:13px;color:var(--muted);margin:0}
+    .section-index{display:inline-block;color:var(--violet);font:900 .62em/1 Georgia,serif;margin-right:12px;letter-spacing:0;vertical-align:middle}
     .section-count{font-size:11px;letter-spacing:.08em;font-weight:850;color:var(--muted);white-space:nowrap}
     .workspace{display:grid;grid-template-columns:minmax(0,1fr) 345px;gap:24px;align-items:start}
     .roster-panel{min-width:0}
@@ -117,14 +118,15 @@
     .btn.small{padding:9px 12px;font-size:12px}
     .btn.full{width:100%}
     .selection-note{padding-top:16px;border-top:1px solid #44374e;margin-top:17px;color:#b6a8c0;font-size:11px}
-    .selection-note button{border:0;background:none;color:#f3bfd7;font-weight:850;padding:0;float:right}
-    .studio{margin-top:70px}
-    .studio-shell{background:#eee9f5;border:1px solid #e3d9ee;border-radius:25px;padding:40px}
-    .studio-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:27px}
+    .selection-note{text-align:right}
+    .selection-note button{border:0;background:none;color:#f3bfd7;font-weight:850;padding:0}
+    .studio{margin-top:49px}
+    .studio-shell{background:#eee9f5;border:1px solid #e3d9ee;border-radius:25px;padding:30px}
+    .studio-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:18px}
     .studio-head h2{margin-bottom:5px}
     .studio-head p{font-size:13px;color:#766783;margin:0}
     .studio-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:stretch}
-    .builder-card{background:#fff;border:1px solid #e5ddec;border-radius:18px;padding:26px;min-width:0;box-shadow:0 6px 20px rgba(57,34,73,.028)}
+    .builder-card{background:#fff;border:1px solid #e5ddec;border-radius:18px;padding:22px;min-width:0;box-shadow:0 6px 20px rgba(57,34,73,.028)}
     .card-topline{display:flex;align-items:center;gap:8px;margin-bottom:15px}
     .step-circle{display:grid;place-items:center;border-radius:100%;width:30px;height:30px;background:var(--dark);color:white;font:800 12px/1 sans-serif}
     .card-title{font-size:17px;font-weight:900;letter-spacing:-.035em;margin:0}
@@ -177,8 +179,8 @@
     .toast.show{opacity:1;transform:translate(-50%,0)}
     .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     @media(max-width:1080px){.workspace{grid-template-columns:minmax(0,1fr) 306px;gap:18px}.selection-panel{padding:24px 19px}.hero-shell{padding:42px 48px}.hero-art{right:-130px}}
-    @media(max-width:840px){.workspace{grid-template-columns:1fr}.selection-panel{position:static;order:0}.selected-list{max-height:175px}.studio-grid{grid-template-columns:1fr}.hero-copy{width:100%}.hero-art{right:-255px;opacity:.45}.hero-shell{padding:40px 35px;min-height:292px}.hero h1{font-size:clamp(34px,6vw,52px)}.studio-shell{padding:28px}.mobile-bar{display:flex;position:fixed;z-index:20;left:0;right:0;bottom:0;align-items:center;gap:10px;padding:12px max(17px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom));background:rgba(252,249,252,.96);border-top:1px solid #e3dce8;box-shadow:0 -5px 20px rgba(33,26,50,.07);backdrop-filter:blur(12px)}.mobile-bar span{font-size:12px;font-weight:850;min-width:92px}.mobile-bar .btn{flex:1;padding:12px 8px}.toast{bottom:90px}.options-section{padding-bottom:110px}}
-    @media(max-width:590px){.container{padding-left:16px;padding-right:16px}.site-header{min-height:75px}.header-meta{gap:12px}.header-meta .desktop-label{display:none}.hero-shell{border-radius:18px;min-height:300px;padding:32px 25px}.hero h1{font-size:37px}.hero-desc{font-size:12px;max-width:290px}.hero-tag{display:none}.hero-actionline{margin-top:21px}.hero-art{right:-320px;opacity:.36}.section{margin-top:39px}.section-heading{align-items:start}.section-heading p{font-size:12px}.section-count{display:none}.toolbar{padding:12px}.toolbar-top{gap:7px}.searchbox{flex-basis:100%}.filter-toggle{flex:1}.char-grid{grid-template-columns:1fr;gap:8px}.character{min-height:61px}.roster-meta{gap:8px}.selection-panel{border-radius:17px}.studio{margin-top:48px}.studio-shell{border-radius:18px;padding:22px 15px}.studio-head{align-items:start}.builder-card{padding:21px 16px}.two-fields{grid-template-columns:1fr}.story-options select{min-width:100px}.preset-controls{align-items:stretch}.preset-controls .text-field,.preset-controls select{width:100%}.preset-controls .btn{flex:1}footer{padding-bottom:20px}}
+    @media(max-width:840px){.workspace{grid-template-columns:1fr}.selection-panel{position:static;order:0}.selected-list{max-height:175px}.studio-grid{grid-template-columns:1fr}.hero-copy{width:100%}.hero-art{right:-255px;opacity:.45}.hero-shell{padding:30px 35px;min-height:225px}.hero h1{font-size:clamp(34px,6vw,52px)}.studio-shell{padding:28px}.mobile-bar{display:flex;position:fixed;z-index:20;left:0;right:0;bottom:0;align-items:center;gap:10px;padding:12px max(17px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom));background:rgba(252,249,252,.96);border-top:1px solid #e3dce8;box-shadow:0 -5px 20px rgba(33,26,50,.07);backdrop-filter:blur(12px)}.mobile-bar span{font-size:12px;font-weight:850;min-width:92px}.mobile-bar .btn{flex:1;padding:12px 8px}.toast{bottom:90px}.options-section{padding-bottom:110px}}
+    @media(max-width:590px){.container{padding-left:16px;padding-right:16px}.site-header{min-height:66px}.header-meta{gap:12px}.header-meta .desktop-label{display:none}.hero-shell{border-radius:18px;min-height:210px;padding:26px 25px}.hero h1{font-size:37px}.hero-desc{font-size:12px;max-width:290px}.hero-tag{display:none}.hero-actionline{margin-top:21px}.hero-art{right:-320px;opacity:.36}.section{margin-top:39px}.section-heading{align-items:start}.section-heading p{font-size:12px}.section-count{display:none}.toolbar{padding:12px}.toolbar-top{gap:7px}.searchbox{flex-basis:100%}.filter-toggle{flex:1}.char-grid{grid-template-columns:1fr;gap:8px}.character{min-height:61px}.roster-meta{gap:8px}.selection-panel{border-radius:17px}.studio{margin-top:48px}.studio-shell{border-radius:18px;padding:22px 15px}.studio-head{align-items:start}.builder-card{padding:21px 16px}.two-fields{grid-template-columns:1fr}.story-options select{min-width:100px}.preset-controls{align-items:stretch}.preset-controls .text-field,.preset-controls select{width:100%}.preset-controls .btn{flex:1}footer{padding-bottom:20px}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
@@ -186,23 +188,21 @@
   <header class="site-header container">
     <a class="logo" href="#top" aria-label="YUME SELECTOR トップ">
       <span class="logo-mark"><span>J.</span></span>
-      <span class="logo-word">YUME SELECTOR<span class="logo-sub">JOJO DREAM TOOL</span></span>
+      <span class="logo-word">YUME SELECTOR</span>
     </a>
-    <div class="header-meta"><span class="desktop-label">MADE FOR IMAGINATION</span><a href="#howto">使い方</a></div>
+    <div class="header-meta"><a href="#howto">使い方</a></div>
   </header>
 
   <main id="top">
     <section class="hero container">
       <div class="hero-shell">
         <div class="hero-copy">
-          <p class="eyebrow">01–07 / CHARACTER × SCENARIO</p>
           <h1>誰と、<br><em>どんな夜を。</em></h1>
-          <p class="hero-desc">好きなキャラを候補にして、5つのあらすじから物語を選ぶ。<br>夢小説のための、ちいさなプロンプト工房。</p>
-          <div class="hero-actionline"><a class="btn rose" href="#characters">キャラを選ぶ <span aria-hidden="true">↗</span></a><span class="hero-tag" id="heroRosterCount">7 PARTS / CHARACTER LIBRARY</span></div>
+          <div class="hero-actionline"><a class="btn rose" href="#characters">キャラを選ぶ <span aria-hidden="true">↗</span></a></div>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="orbit a"></div><div class="orbit b"></div><div class="orbit c"></div>
-          <div class="orbit-core"><strong>07</strong><small>PARTS / INFINITE STORIES</small></div>
+          <div class="orbit-core"><strong>07</strong></div>
           <span class="hero-spark">✳</span><span class="hero-spark two">✦</span>
         </div>
       </div>
@@ -210,8 +210,7 @@
 
     <section class="section container" id="characters" aria-labelledby="rosterTitle">
       <div class="section-heading">
-        <div><div class="step-label">STEP 01 — CHOOSE YOUR CAST</div><h2 id="rosterTitle">候補のキャラクターを選ぶ</h2><p>部をまたいで何人でも選べます。5人以上で、あらすじ生成に進めます。</p></div>
-        <span class="section-count" id="totalMeta"></span>
+        <div><h2 id="rosterTitle"><span class="section-index" aria-hidden="true">01</span>キャラクターを選ぶ</h2></div>
       </div>
       <div class="workspace">
         <div class="roster-panel">
@@ -228,25 +227,25 @@
           </div>
           <div class="roster-meta">
             <span class="result-label" id="resultsCount" aria-live="polite"></span>
-            <button type="button" id="selectAllFiltered">絞り込み結果を全選択</button>
-            <button type="button" id="unselectAllFiltered">絞り込み結果を解除</button>
+            <button type="button" id="selectAllFiltered">すべて選択</button>
+            <button type="button" id="unselectAllFiltered">選択解除</button>
           </div>
           <div class="char-grid" id="characterGrid"></div>
           <div class="more-wrap" id="loadMoreWrap" hidden><button type="button" id="loadMore">さらに表示</button></div>
         </div>
         <aside class="selection-panel" aria-label="選択中のキャラクター">
           <div class="selection-header">
-            <div><p>YOUR CAST</p><h3>選択中のキャラ</h3></div>
+            <div><h3>選択中</h3></div>
             <strong class="selected-count" id="selectedCount">0</strong>
           </div>
           <div class="meter" aria-hidden="true"><div class="meter-fill" id="meterFill"></div></div>
           <p class="meter-label" id="meterLabel">あと5人選ぶとプロンプトを作れます。</p>
-          <div class="selected-list" id="selectedList"><span class="selected-placeholder">まだ誰も選ばれていません。</span></div>
+          <div class="selected-list" id="selectedList"><span class="selected-placeholder">キャラクターを選択してください。</span></div>
           <div class="selected-actions">
             <button class="btn rose full" id="goToStudio" type="button">プロンプトを作る <span aria-hidden="true">↗</span></button>
             <button class="btn ghost full small" id="copyCast" type="button">選択キャラ一覧をコピー</button>
           </div>
-          <div class="selection-note">選択内容は自動保存されます。<button id="clearSelected" type="button">全解除</button></div>
+          <div class="selection-note"><button id="clearSelected" type="button">全解除</button></div>
         </aside>
       </div>
     </section>
@@ -254,12 +253,12 @@
     <section class="studio container" id="studio" aria-labelledby="studioTitle">
       <div class="studio-shell">
         <div class="studio-head">
-          <div><div class="step-label">STEP 02 — BUILD YOUR PROMPT</div><h2 id="studioTitle">物語の種をつくる</h2><p>シチュエーションは自由に書き換えられます。Argonへの送信はコピー＆ペーストで。</p></div>
+          <div><h2 id="studioTitle"><span class="section-index" aria-hidden="true">02</span>プロンプトを作る</h2></div>
         </div>
         <div class="studio-grid">
           <div class="builder-card">
-            <div class="card-topline"><span class="step-circle">A</span><h3 class="card-title">シチュエーション設定</h3></div>
-            <label class="field-label" for="scenarioInput">今回のシチュエーション</label>
+            <div class="card-topline"><h3 class="card-title">シチュエーション</h3></div>
+            <label class="sr-only" for="scenarioInput">今回のシチュエーション</label>
             <textarea id="scenarioInput" spellcheck="true"></textarea>
             <button type="button" class="soft-link" id="resetScenario">ホテルの夜の設定に戻す</button>
             <div class="two-fields">
@@ -268,38 +267,34 @@
               <div><label class="field-label" for="outlineLengthSelect">あらすじ1本の長さ</label>
                 <select id="outlineLengthSelect"><option value="80〜120字">80〜120字</option><option value="120〜180字">120〜180字</option><option value="180〜250字">180〜250字</option></select></div>
             </div>
-            <details class="rule-detail"><summary>共通指定を確認・編集する</summary>
-              <label class="field-label" for="rulesInput" style="margin-top:14px">原作再現・夢主の口調など</label>
+            <details class="rule-detail"><summary>共通指定</summary>
+              <label class="sr-only" for="rulesInput">共通指定の本文</label>
               <textarea id="rulesInput"></textarea>
               <button type="button" class="soft-link" id="resetRules">共通指定を初期状態に戻す</button>
             </details>
           </div>
           <div class="builder-card workflow-card">
             <div class="flowstep">
-              <div class="flowstep-head"><span class="step-circle">1</span><h3>まず、5つのあらすじを</h3></div>
-              <p>選択した候補からArgonに5人を選ばせ、人物ごとの展開を短く書き分けてもらいます。</p>
+              <div class="flowstep-head"><span class="step-circle">1</span><h3>5つのあらすじ</h3></div>
               <div class="flow-buttons">
-                <button class="btn violet" type="button" id="copyIdeas" disabled>① あらすじ用をコピー</button>
+                <button class="btn violet" type="button" id="copyIdeas" disabled>あらすじ用をコピー</button>
                 <button class="btn outline small" type="button" id="previewIdeas">内容を見る</button>
               </div>
-              <p class="field-note" id="copyIdeasHint">まず5人以上のキャラを選んでください。</p>
             </div>
             <div class="flowstep">
-              <div class="flowstep-head"><span class="step-circle">2</span><h3>気に入った1本を本編に</h3></div>
-              <p>Argonが返した案の番号を選択。同じチャットに送れば、その案を約3000字などで小説化できます。</p>
+              <div class="flowstep-head"><span class="step-circle">2</span><h3>1本を本編に</h3></div>
               <div class="story-options">
                 <label for="outlineNumberSelect">採用する案</label>
                 <select id="outlineNumberSelect"><option value="1">1番</option><option value="2">2番</option><option value="3">3番</option><option value="4">4番</option><option value="5">5番</option></select>
                 <label for="storyLengthSelect">本文</label>
                 <select id="storyLengthSelect"><option value="2000">約2000字</option><option value="3000">約3000字</option><option value="4000">約4000字</option><option value="5000">約5000字</option></select>
               </div>
-              <label class="field-label" for="outlineText">あらすじを貼り付ける（任意）</label>
-              <textarea id="outlineText" class="outline-input" placeholder="別チャットで本編を頼むなら、採用したあらすじをここに貼り付けると便利です。"></textarea>
+              <label class="field-label" for="outlineText">あらすじ（任意）</label>
+              <textarea id="outlineText" class="outline-input" placeholder="別チャットで使う場合は、採用したあらすじを貼り付け"></textarea>
               <div class="flow-buttons" style="margin-top:12px">
-                <button class="btn violet" type="button" id="copyStory">② 本文執筆用をコピー</button>
+                <button class="btn violet" type="button" id="copyStory">本文用をコピー</button>
                 <button class="btn outline small" type="button" id="previewStory">内容を見る</button>
               </div>
-              <p class="field-note">あらすじを貼り付けた場合は、番号より貼り付けた内容を優先します。</p>
             </div>
           </div>
         </div>
@@ -311,18 +306,18 @@
     </section>
 
     <section class="options-section container">
-      <details class="details-card" id="sets"><summary>候補セットを保存・呼び出す</summary>
-        <div class="details-body"><p>「いつもの推し」などの名前で、選んだキャラの組み合わせを保存できます。端末・ブラウザ内に保存されます。</p>
+      <details class="details-card" id="sets"><summary>候補セット</summary>
+        <div class="details-body">
           <div class="preset-controls"><input class="text-field" id="presetName" maxlength="45" placeholder="セット名（例：気になる暗殺チーム）" aria-label="セット名"><button class="btn violet small" id="savePreset" type="button">今の候補を保存</button></div>
           <div class="preset-controls" style="margin-top:12px"><select id="presetSelect" aria-label="保存済み候補セット"><option value="">保存したセットを選択</option></select><button class="btn outline small" id="loadPreset" type="button">呼び出す</button><button class="btn outline small" id="deletePreset" type="button">削除する</button></div>
         </div>
       </details>
-      <details class="details-card"><summary>データのバックアップ・復元</summary>
-        <div class="details-body"><p>選択・お気に入り・共通指定・候補セットはこのブラウザのローカルストレージに保存されます。別の端末やブラウザには自動同期されません。JSONファイルを保存しておくと復元できます。</p>
+      <details class="details-card"><summary>バックアップ</summary>
+        <div class="details-body"><p>端末間の自動同期はありません。別端末へ移すときはJSONで保存・復元してください。</p>
           <div class="backup-row"><button class="btn outline small" id="exportData" type="button">設定をJSONで書き出す</button><button class="btn outline small" id="importDataButton" type="button">JSONから復元する</button><input type="file" id="importFile" accept=".json,application/json" hidden aria-label="バックアップJSONを選択"></div>
         </div>
       </details>
-      <details class="details-card" id="howto"><summary>使い方・このツールについて</summary>
+      <details class="details-card" id="howto"><summary>使い方</summary>
         <div class="details-body">
           <ol class="helper-list"><li>1〜7部から気になるキャラを5人以上選びます。☆を押すとお気に入りに登録できます。</li><li>シチュエーションを編集し、「① あらすじ用をコピー」を押してArgonに送ります。</li><li>Argonが提示する5案から好きなものを選び、「② 本文執筆用をコピー」を送ります。別チャットで使う場合は、その案のあらすじも貼り付けてください。</li></ol>
           <p>このアプリは外部API・ログイン・サーバー通信を使いません。生成するのはテキストのプロンプトであり、AIによる小説生成自体は行いません。原作で18歳未満の人物には「(18歳ver.)」の表記を付けています。登場人物の年齢が明示されていない場合は成人設定で扱います。</p>
@@ -330,8 +325,8 @@
       </details>
     </section>
   </main>
-  <footer class="container"><span><strong>YUME SELECTOR</strong> — 非公式ファンメイドツール。作品・権利者とは無関係です。</span><span>MADE FOR STORIES, NOT FOR SPOILERS.</span></footer>
-  <div class="mobile-bar"><span id="mobileSelectedCount">0人選択中</span><button class="btn violet" type="button" id="mobileStudio">プロンプト作成へ ↗</button></div>
+  <footer class="container"><span>非公式ファンメイドツール。作品・権利者とは無関係です。</span></footer>
+  <div class="mobile-bar"><span id="mobileSelectedCount">0人選択中</span><button class="btn violet" type="button" id="mobileStudio">プロンプト作成へ</button></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
@@ -403,20 +398,19 @@
   }
   function renderSelected(){const n=state.selected.length;$('selectedCount').textContent=String(n);$('mobileSelectedCount').textContent=`${n}人選択中`;
     $('meterFill').style.width=`${Math.min(100,n/5*100)}%`;
-    $('meterLabel').textContent=n<5?`あと${5-n}人選ぶと、5つのあらすじを作れます。`:`準備OK！ 候補${n}人から5人${n===5?'全員':'をArgonが選択'}。`;
+    $('meterLabel').textContent=n<5?`あと${5-n}人選択`:`${n}人から5案を作成できます`;
     $('copyIdeas').disabled=n<5;
-    $('copyIdeasHint').textContent=n<5?`あと${5-n}人選ぶとコピーできます。`:`候補${n}人から5つの案を生成するプロンプトを作れます。`;
     $('goToStudio').disabled=n<5;
     $('copyCast').disabled=n===0;
     $('clearSelected').disabled=n===0;
     const chips=$('selectedList');chips.replaceChildren();
-    if(!n){chips.append(create('span','selected-placeholder','まだ誰も選ばれていません。気になるキャラを選んでください。'))}
+    if(!n){chips.append(create('span','selected-placeholder','まだ選択されていません。'))}
     else state.selected.forEach(id=>{const c=BY_ID.get(id);if(!c)return;const chip=create('span','selected-chip');chip.append(create('span','selected-chip-label',`第${c.part}部 ${charDisplay(c)}`));const remove=create('button','', '×');remove.type='button';remove.dataset.remove=id;remove.setAttribute('aria-label',`${c.name}を候補から外す`);chip.append(remove);chips.append(chip)});
   }
   function renderFilters(){$('searchInput').value=state.query;for(const [key,id] of [['onlyFavorites','favoritesFilter'],['onlySelected','selectedFilter']]){const b=$(id);b.classList.toggle('active',state[key]);b.setAttribute('aria-pressed',String(state[key]))}}
   function renderPresets(){const selector=$('presetSelect'),previous=selector.value;selector.replaceChildren();const start=document.createElement('option');start.value='';start.textContent='保存したセットを選択';selector.append(start);state.presets.forEach(p=>{const o=document.createElement('option');o.value=p.id;o.textContent=`${p.name}（${p.ids.length}人）`;selector.append(o)});selector.value=state.presets.some(p=>p.id===previous)?previous:''}
   function render(){renderPartTabs();renderFilters();renderRoster();renderSelected()}
-  function refreshAll(){render();renderPresets();$('scenarioInput').value=state.scenario;$('relationshipSelect').value=state.relationship;$('outlineLengthSelect').value=state.outlineLength;$('storyLengthSelect').value=state.storyLength;$('outlineNumberSelect').value=state.outlineNumber;$('outlineText').value=state.outlineText;$('rulesInput').value=state.rules;$('heroRosterCount').textContent=`7 PARTS / ${CHARS.length} CHARACTERS`;$('totalMeta').textContent=`TOTAL ${CHARS.length} CHARACTERS`}
+  function refreshAll(){render();renderPresets();$('scenarioInput').value=state.scenario;$('relationshipSelect').value=state.relationship;$('outlineLengthSelect').value=state.outlineLength;$('storyLengthSelect').value=state.storyLength;$('outlineNumberSelect').value=state.outlineNumber;$('outlineText').value=state.outlineText;$('rulesInput').value=state.rules;}
   function chooseChar(id){if(!BY_ID.has(id))return;const wasSelected=state.selected.includes(id);state.selected=wasSelected?state.selected.filter(x=>x!==id):[...state.selected,id];save();renderRoster();renderSelected();const newButton=[...$('characterGrid').querySelectorAll('[data-pick]')].find(b=>b.dataset.pick===id);if(newButton&&document.activeElement?.tagName!=='INPUT')newButton.focus({preventScroll:true})}
   function starChar(id){if(!BY_ID.has(id))return;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];save();renderRoster();const newButton=[...$('characterGrid').querySelectorAll('[data-fav]')].find(b=>b.dataset.fav===id);newButton?.focus({preventScroll:true})}
   function relationshipRule(){return {auto:'二人の関係性は原作設定と人物像に即して自然に設定する。交際前と恋人同士の振る舞いを混同しない。',before:'二人は交際前で、恋愛はまだ成立していない。今回の場面で急に両想いや交際成立へ進めない。',partners:'二人はすでに恋人同士。ただし原作の性格を守り、過剰に甘くしない。',friends:'二人は友人・知人。交際関係を前提とせず、現在の距離感に即した反応を描く。',coworkers:'二人は仕事仲間または協力者。恋愛関係を前提にせず、その関係ならではの距離感を重視する。'}[state.relationship]}
@@ -427,7 +421,7 @@
     const el=document.createElement('textarea');el.value=text;el.setAttribute('readonly','');el.style.cssText='position:fixed;left:0;top:0;opacity:0;width:1px;height:1px;';document.body.append(el);el.focus();el.select();el.setSelectionRange(0,el.value.length);let ok=false;try{ok=document.execCommand('copy')}catch{}el.remove();if(ok){notify('コピーしました。Argonに貼り付けられます。');return true}
     showPreview('custom',text);notify('自動コピーできませんでした。プレビューから手動でコピーしてください。');return false;
   }
-  function showPreview(kind,customText){previewKind=kind;const panel=$('previewPanel');$('previewTitle').textContent=kind==='idea'?'① あらすじ用プロンプト':kind==='story'?'② 本文執筆用プロンプト':'手動コピー用テキスト';$('previewText').textContent=kind==='idea'?ideaPrompt():kind==='story'?storyPrompt():customText;panel.hidden=false;panel.scrollIntoView({behavior:'smooth',block:'nearest'})}
+  function showPreview(kind,customText){previewKind=kind;const panel=$('previewPanel');$('previewTitle').textContent=kind==='idea'?'あらすじ用プロンプト':kind==='story'?'本文用プロンプト':'手動コピー用テキスト';$('previewText').textContent=kind==='idea'?ideaPrompt():kind==='story'?storyPrompt():customText;panel.hidden=false;panel.scrollIntoView({behavior:'smooth',block:'nearest'})}
   function scrollToStudio(){document.getElementById('studio').scrollIntoView({behavior:'smooth',block:'start'})}
   function saveInputState(){state.scenario=$('scenarioInput').value;state.relationship=$('relationshipSelect').value;state.outlineLength=$('outlineLengthSelect').value;state.storyLength=$('storyLengthSelect').value;state.outlineNumber=$('outlineNumberSelect').value;state.outlineText=$('outlineText').value;state.rules=$('rulesInput').value;save();if(previewKind==='idea'||previewKind==='story'){$('previewText').textContent=previewKind==='idea'?ideaPrompt():storyPrompt()}}
   function safeConfirm(msg){return window.confirm(msg)}
